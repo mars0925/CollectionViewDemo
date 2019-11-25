@@ -14,6 +14,8 @@
 		41676E1D238B974E00CEFD10 /* CollectionViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41676E1B238B974E00CEFD10 /* CollectionViewDemo.xcdatamodeld */; };
 		41676E1F238B975100CEFD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41676E1E238B975100CEFD10 /* Assets.xcassets */; };
 		41676E22238B975100CEFD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41676E20238B975100CEFD10 /* LaunchScreen.storyboard */; };
+		41676E2A238B97DB00CEFD10 /* MYCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41676E29238B97DB00CEFD10 /* MYCollectionViewCell.swift */; };
+		41676E2C238BC20600CEFD10 /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41676E2B238BC20600CEFD10 /* DynamicHeightCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		41676E1E238B975100CEFD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41676E21238B975100CEFD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41676E23238B975100CEFD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41676E29238B97DB00CEFD10 /* MYCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYCollectionViewCell.swift; sourceTree = "<group>"; };
+		41676E2B238BC20600CEFD10 /* DynamicHeightCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 				41676E16238B974E00CEFD10 /* ViewController.swift */,
 				41676E18238B974E00CEFD10 /* Main.storyboard */,
 				41676E1E238B975100CEFD10 /* Assets.xcassets */,
+				41676E2B238BC20600CEFD10 /* DynamicHeightCollectionView.swift */,
 				41676E20238B975100CEFD10 /* LaunchScreen.storyboard */,
 				41676E23238B975100CEFD10 /* Info.plist */,
 				41676E1B238B974E00CEFD10 /* CollectionViewDemo.xcdatamodeld */,
+				41676E29238B97DB00CEFD10 /* MYCollectionViewCell.swift */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 				41676E17238B974E00CEFD10 /* ViewController.swift in Sources */,
 				41676E13238B974E00CEFD10 /* AppDelegate.swift in Sources */,
 				41676E15238B974E00CEFD10 /* SceneDelegate.swift in Sources */,
+				41676E2A238B97DB00CEFD10 /* MYCollectionViewCell.swift in Sources */,
 				41676E1D238B974E00CEFD10 /* CollectionViewDemo.xcdatamodeld in Sources */,
+				41676E2C238BC20600CEFD10 /* DynamicHeightCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
